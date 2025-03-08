@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello", "Hi", "Is anyone there?", "Good day", "How are you?",
+        "Welcome", "Greetings everyone", "Hello friends", "How are you doing?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?", "Welcome!",
+        "Hello! Would you like to talk about futures trading?",
+        "Hi! How may I help you?"
+      ]
+    },
+	{
+		"tag": "whoami",
+		"patterns": [
+			"Who are you?", "What's your name?", "What's your capability?", "Name"
+		],
+		"responses": [
+			"I am a chatbot designed to provide information about cryptocurrencies and trading.",
+			"I don't have a name, but I'm here to help you with the crypto market.",
+			"I can provide information about cryptocurrencies, blockchain technology, futures trading, and market analysis.",
+			"I am an artificial intelligence developed to answer your questions about the crypto world and guide you."
+		]
+	},
+    {
+      "tag": "futures_definition",
+      "patterns": [
+        "What are futures?", "What is futures trading?", "How do futures contracts work?",
+        "How does futures trading work?", "How to start futures trading?"
+      ],
+      "responses": [
+        "Futures are forward contracts to buy or sell at a specific date and price.",
+        "Futures trading allows investors to buy or sell a specific asset at a predetermined price in the future.",
+        "Futures contracts are among derivative products and are used for speculation or risk management."
+      ]
+    },
+    {
+      "tag": "futures_risks",
+      "patterns": [
+        "Is futures trading risky?", "What are the risks in futures trading?",
+        "Will I experience losses in futures trading?", "Will I lose money in the futures market?"
+      ],
+      "responses": [
+        "Yes, futures trading can involve high risk due to leverage.",
+        "Futures trading involves price risk due to market movements.",
+        "There is a high risk of loss as well as a chance of high return in futures markets.",
+        "You can use stop-loss orders and risk management strategies to manage risks."           
+      ]
+    },
+    {
+      "tag": "futures_margin",
+      "patterns": [
+        "What is margin in futures trading?", "How much margin is required for futures trading?",
+        "How is margin calculated when trading futures?", "How is margin level determined?"
+      ],
+      "responses": [
+        "Margin in futures trading is the minimum collateral you need to deposit to open a trade.",
+        "There are two types of margin for futures trading: initial margin and maintenance margin.",
+        "The margin rate is determined by the market you trade and the broker.",
+        "Margin levels usually vary depending on asset volatility and market conditions."
+      ]
+    },
+    {
+      "tag": "futures_contract_types",
+      "patterns": [
+        "What types of futures contracts are there?", "What are the types of futures contracts?",
+        "Which assets are traded in futures?", "Which market can I trade futures in?"
+      ],
+      "responses": [
+        "Futures contracts can be made on various assets such as commodities (gold, oil), stock indices, currencies, interest rates, and cryptocurrencies.",
+        "The most common futures contracts include S&P 500 futures, oil futures, and gold futures contracts.",
+        "There are many different types of futures contracts, such as foreign exchange, agricultural products, energy products, and interest rate derivatives."
+      ]
+    },
+    {
+      "tag": "futures_trading_platforms",
+      "patterns": [
+        "Which platforms are used for futures trading?", "Which platform is the best for futures trading?",
+        "Which exchanges are used for futures trading?", "Where should I start for futures trading?"
+      ],
+      "responses": [
+        "Futures trading is conducted on major exchanges such as CME, NYMEX, and ICE.",
+        "Crypto derivatives platforms such as Binance, FTX, and Kraken also offer futures trading.",
+        "Platforms such as MetaTrader, NinjaTrader, and Interactive Brokers are popular for futures trading.",
+        "You should consider commission rates, margin requirements, and liquidity when choosing a broker."
+      ]
+    },
+    {
+      "tag": "futures_trading_strategies",
+      "patterns": [
+        "What are the best strategies for futures trading?", "How do I succeed in futures trading?",
+        "Which strategies are suitable for futures trading?", "How to make money in futures trading?"
+      ],
+      "responses": [
+        "Methods such as scalping, swing trading, and trend following strategies can be used for futures trading.",
+        "Risk management strategies and the use of technical analysis enable you to become a successful futures investor.",
+        "You should consider factors such as volume, volatility, and liquidity when trading in the futures market.",
+        "You can minimize risks by using stop-loss and take-profit orders."
+      ]
+    },
+    {
+      "tag": "spot_trading_definition",
+      "patterns": [
+        "What is spot trading?", "How does spot trading work?", "What is instant trading?", "How to buy crypto in spot?"
+      ],
+      "responses": [
+        "Spot trading involves buying or selling cryptocurrencies for immediate delivery.",
+        "In spot trading, you purchase the actual asset, not a contract.",
+        "Spot trading is usually conducted on centralized or decentralized exchanges.",
+        "You can buy crypto on spot by placing a market or limit order on an exchange."
+      ]
+    },
+    {
+      "tag": "spot_trading_risks",
+      "patterns": [
+        "Is spot trading risky?", "What are the risks in spot trading?", "What are the dangers of spot trading?", "Spot trading risk management"
+      ],
+      "responses": [
+        "While less risky than futures, spot trading still involves price volatility risk.",
+        "Risks include market fluctuations, liquidity issues, and exchange security.",
+        "You can manage risks by diversifying your portfolio and using stop-loss orders.",
+        "Always research the coins you're trading and understand the market conditions."
+      ]
+    },
+    {
+      "tag": "crypto_coin_types",
+      "patterns": [
+        "What are the types of cryptocurrencies?", "What are altcoins?", "What are stablecoins?", "What are meme coins?"
+      ],
+      "responses": [
+        "Cryptocurrencies include Bitcoin, altcoins, stablecoins, and meme coins.",
+        "Altcoins are any cryptocurrencies other than Bitcoin.",
+        "Stablecoins are designed to maintain a stable value, usually pegged to a fiat currency.",
+        "Meme coins are cryptocurrencies that gained popularity through internet memes and social media."
+      ]
+    },
+    {
+      "tag": "crypto_exchanges",
+      "patterns": [
+        "What are crypto exchanges?", "Which are the best crypto exchanges?", "How to choose a crypto exchange?", "What are decentralized exchanges?"
+      ],
+      "responses": [
+        "Crypto exchanges are platforms where you can buy, sell, and trade cryptocurrencies.",
+        "Popular exchanges include Binance, Coinbase, Kraken, and others.",
+        "Consider security, fees, supported coins, and user interface when choosing an exchange.",
+        "Decentralized exchanges (DEXs) allow peer-to-peer trading without a central authority."
+      ]
+    },
+    {
+      "tag": "crypto_wallets",
+      "patterns": [
+        "What are crypto wallets?", "What are the types of crypto wallets?", "How to secure my crypto wallet?", "Which is the best crypto wallet?"
+      ],
+      "responses": [
+        "Crypto wallets store your private keys and allow you to access your cryptocurrencies.",
+        "Types include hardware wallets, software wallets, and paper wallets.",
+        "Secure your wallet with strong passwords, two-factor authentication, and by keeping your private keys offline.",
+        "Hardware wallets like Ledger and Trezor are considered the most secure."
+      ]
+    },
+    {
+      "tag": "market_analysis",
+      "patterns": [
+        "What is market analysis?", "How to analyze the crypto market?", "What is technical analysis?", "What is fundamental analysis?"
+      ],
+      "responses": [
+        "Market analysis involves studying market trends and data to make informed trading decisions.",
+        "You can analyze the crypto market using technical analysis, fundamental analysis, and sentiment analysis.",
+        "Technical analysis uses charts and indicators to predict future price movements.",
+        "Fundamental analysis evaluates the intrinsic value of a cryptocurrency based on its technology, team, and adoption."
+      ]
+    }
+  ]
+}
